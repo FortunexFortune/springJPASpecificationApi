@@ -42,6 +42,22 @@ public class Account {
 	}
 	
 
+	public long getAccountId() {
+		return accountId;
+	}
+
+	public void setAccountId(long accountId) {
+		this.accountId = accountId;
+	}
+
+	public OffsetDateTime getDateCreated() {
+		return dateCreated;
+	}
+
+	public void setDateCreated(OffsetDateTime dateCreated) {
+		this.dateCreated = dateCreated;
+	}
+
 	public String getName() {
 		return name;
 	}
